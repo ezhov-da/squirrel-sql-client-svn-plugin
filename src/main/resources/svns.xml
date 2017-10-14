@@ -1,0 +1,33 @@
+<root>
+    <listSvn>
+        <svn>
+            <name>tortoise</name>
+            <commands>
+                <command>
+                    <name>commit</name>
+                    <pathToCommand>cmd /c C:\"Program Files"\TortoiseSVN\bin\TortoiseProc.exe</pathToCommand>
+                    <argument>/Command:commit /path:</argument>
+                    <methodFile>getAbsolutePath</methodFile>
+                </command>
+                <command>
+                    <name>update</name>
+                    <pathToCommand>cmd /c C:\"Program Files"\TortoiseSVN\bin\TortoiseProc.exe</pathToCommand>
+                    <argument>/Command:update /path:</argument>
+                    <methodFile>getAbsolutePath</methodFile>
+                </command>
+                <command>
+                    <name>log</name>
+                    <pathToCommand>cmd /c C:\"Program Files"\TortoiseSVN\bin\TortoiseProc.exe</pathToCommand>
+                    <argument>/Command:log /path:</argument>
+                    <methodFile>getAbsolutePath</methodFile>
+                </command>
+                <command>
+                    <name>diff</name>
+                    <pathToCommand>cmd /c C:\"Program Files"\TortoiseSVN\bin\TortoiseProc.exe</pathToCommand>
+                    <argument>/Command:diff /path:</argument>
+                    <methodFile>getAbsolutePath</methodFile>
+                </command>
+            </commands>
+        </svn>
+    </listSvn>
+</root>
