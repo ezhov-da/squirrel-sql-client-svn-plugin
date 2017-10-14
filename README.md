@@ -1,0 +1,1 @@
+# squirrel-sql-client-svn-plugin
